@@ -35,7 +35,7 @@ public class KafkaConsumer {
     private KafkaConsumer() {
         Properties props = new Properties();
         //zookeeper 配置
-        props.put("zookeeper.connect", "172.24.2.44:2181");
+        props.put("zookeeper.connect", "127.0.0.1:2181");
 
         //group 代表一个消费组
         props.put("group.id", "jd-jr-grup");
@@ -65,7 +65,7 @@ public class KafkaConsumer {
         KafkaStream<String, String> stream = consumerMap.get(kafkaConstant.TOPIC).get(0);
         ConsumerIterator<String, String> it = stream.iterator();
         while (it.hasNext())
-            System.out.println(it.next().message());
+            System.out.println("======get message from kafka:===="+it.next().message());
     }
 
     public static void main(String[] args) {
