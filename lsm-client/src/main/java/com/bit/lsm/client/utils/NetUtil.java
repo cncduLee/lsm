@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2014, wylipengming@jd.com|shouli1990@gmail.com. All rights reserved.
+ * Copyright (c) 2014, shouli1990@gmail.com|shouli1990@gmail.com. All rights reserved.
  *
  */
 package com.bit.lsm.client.utils;
@@ -19,7 +19,7 @@ import static com.bit.lsm.client.utils.StringUtils.isEmpty;
  * <b>包名称</b>： com.bit.lsm.client.utils <br>
  * <b>类名称</b>： NetUtil <br>
  * <b>类描述</b>： <br>
- * <b>创建人</b>： <a href="mailto:wylipengming@jd.com">李朋明</a> <br>
+ * <b>创建人</b>： <a href="mailto:shouli1990@gmail.com">李朋明</a> <br>
  * <b>修改人</b>： <br>
  * <b>创建时间</b>：2015/2/20 14:44<br>
  * <b>修改时间</b>： <br>
